@@ -7,3 +7,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+def login(username):
+   print(f"欢迎用户{username}成功登录系统")
