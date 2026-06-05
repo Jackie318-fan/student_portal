@@ -11,7 +11,7 @@ When running `ansible all -m ping`, the command fails with “Host unreachable�
 - Verify the cloud security group allows inbound SSH (port 22) and HTTP (port 80).
 - Test manual SSH first: `ssh ubuntu@<ip>`. If SSH works, Ansible works.
 
-## Issue 2: Nginx failed to start / invalid configuration
+## 2: Nginx failed to start / invalid configuration
 **Problem**:
 After running `lb.yml`, Nginx returns an error such as “directive not allowed” or “invalid upstream”.
 
